@@ -2,6 +2,8 @@
 
 if(!defined('mnminclude')){header('Location: ../error_404.php');}
 
+include_once("html1.php");
+
 class kliqqiconfig {
 	var $id = 0;
 	var $var_page = 0;
